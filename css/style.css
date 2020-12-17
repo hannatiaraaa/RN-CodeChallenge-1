@@ -1,0 +1,190 @@
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	height:100%;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding:0;
+	margin:0;
+	font-size:16px;
+	line-height: 28px;
+	color: #777; 
+	background: #fff;
+	overflow-x: hidden;
+	position: relative;
+} 
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1 { font-size: 3em; line-height:1.2em; margin:0 0 .8em; }
+h2 { font-size: 1.8em; line-height:1.4em; margin:0 0 .8em;  }
+h3 { font-size: 1.4em; line-height:1.4em; }
+h4 { font-size: 1.25em; line-height:1.4em;}
+h5 { font-size: 1.1em; line-height:1.4em; }
+h6 { font-size: 1em; line-height:1.2em; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	text-decoration: none; 
+}
+
+p { 
+	padding:0 0 1em;
+	margin: 0;
+}
+
+a {
+	color: #227191;
+	outline: 0;
+	font-weight: bold;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1f2222;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+
+.bg {
+    background: url('/images/bg.jpg');"
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+      -o-background-size: cover;
+         background-size: cover;
+    height: 100%;
+}
+
+.landing h1 {
+	font-size: 56px;
+	font-weight: 300;
+	color: #fff;
+	margin: 130px 0 20px 0;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.landing p {
+	color: #fff;
+}
+
+.landing-text {
+	margin-bottom: 20px;
+}
+
+.landing-text p { 
+	padding-bottom: 20px;
+}
+
+.banner { 
+    position: relative;
+    top: -80px;
+    padding-top: 80px;
+}
+
+.overlay {
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.head-btn {
+	margin-bottom: 40px;
+}
+
+.btn {
+	font-size: 17px;
+	margin: 30px 0 10px;
+	margin-right: 10px;
+	line-height: 20px;
+	padding: 15px 35px;
+	height: 50px;
+	border: 2px solid #fbd22c;
+	background: #fbd22c;
+	transition: all 0.4s;
+	color: rgb(18, 18, 22);
+	border-radius: 100px;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {
+	border: 2px solid #fbd22c;
+	background: transparent;
+	color: #fbd22c;
+}
+
+.phone {
+	margin: 50px 0 100px;
+}
+
+
+/* Responsive web */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	.landing h1 {
+		margin: 60px 0 60px 0;
+	}	
+	.landing-text {
+		margin: 60px 0 40px 0;
+    }
+    .header-phone {
+        margin-top: 125px;
+    }
+}
+
+@media (max-width: 767px) {
+
+}	
+
+@media (max-width: 736px) {
+
+}
+
+@media (max-width: 667px) {
+	.landing h1 {
+		font-size: 50px;
+		margin: 10px 0 25px 0;
+	}
+	.landing-text {
+		margin-top: 20px;
+}
+
+@media (max-width: 568px){
+	.landing h1 {
+		font-size: 40px;
+		margin: 20px 0 10px 0;
+	}
+	.landing-text p {
+		font-size: 16px !important; 
+	}
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 320px) {
+	.landing h1 {
+		margin: 20px 0 35px 0;
+    }
+    .btn {
+		font-size: 16px;
+		margin: 30px 0 10px;
+		margin-right: 15px;
+		padding: 15px 30px;
+		height: 35px;
+		border-radius: 80px;
+	}
+}
